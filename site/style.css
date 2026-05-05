@@ -10,6 +10,16 @@ body {
   color: #111;
 }
 
+a {
+    text-decoration: none; 
+    color: white;        
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFCC00;        
+}
+
 /* HEADER */
 .header {
   background: #063287;
@@ -66,10 +76,19 @@ nav {
   background: black;
   border: 1px solid white;
   color: white;
-  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
   border-radius: 20px;
   margin-right: 100px;
 }
+
+.candidato{
+    width: 10%;
+    margin-right: 10px;
+}
+
 
 /* SEARCH */
 .search {
